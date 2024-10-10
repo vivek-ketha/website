@@ -11,6 +11,7 @@
     <header>
         <nav>
             <div class="logo">
+                <img src="logo.png" alt="LetsUpdate Logo" class="logo-img">
                 <h1>LetsUpdate</h1>
             </div>
             <ul class="nav-links">
@@ -24,6 +25,7 @@
 
     <section id="hero">
         <div class="hero-content">
+            <img src="hero-image.jpg" alt="AI Enhancing Resume" class="hero-img">
             <h2>Enhance Your Resume with AI</h2>
             <p>Let AI automatically update your resume with the latest tech skills, projects, and much more!</p>
             <a href="#upload" class="cta-btn">Get Started</a>
@@ -32,22 +34,38 @@
 
     <section id="about" class="section">
         <h2>About LetsUpdate</h2>
-        <p>LetsUpdate is an AI-powered platform that helps you keep your resume up-to-date. By analyzing your CV, our AI enhances your resume with relevant skills, projects, certifications, and experience.</p>
+        <div class="about-content">
+            <p>LetsUpdate is an AI-powered platform that helps you keep your resume up-to-date. By analyzing your CV, our AI enhances your resume with relevant skills, projects, certifications, and experience.</p>
+            <img src="about-image.jpg" alt="AI Resume Automation" class="about-img">
+        </div>
     </section>
 
     <section id="features" class="section">
         <h2>Features</h2>
-        <ul>
-            <li>Automatic tech skills updates</li>
-            <li>Project suggestions based on CV</li>
-            <li>Experience and certifications matching</li>
-            <li>Real-time resume enhancement</li>
-        </ul>
+        <div class="features-grid">
+            <div class="feature-item">
+                <img src="skills-icon.png" alt="Tech Skills" class="feature-icon">
+                <h3>Automatic Tech Skills Updates</h3>
+            </div>
+            <div class="feature-item">
+                <img src="projects-icon.png" alt="Projects" class="feature-icon">
+                <h3>Project Suggestions Based on CV</h3>
+            </div>
+            <div class="feature-item">
+                <img src="certification-icon.png" alt="Certifications" class="feature-icon">
+                <h3>Experience and Certifications Matching</h3>
+            </div>
+            <div class="feature-item">
+                <img src="real-time-icon.png" alt="Real-Time Updates" class="feature-icon">
+                <h3>Real-Time Resume Enhancement</h3>
+            </div>
+        </div>
     </section>
 
     <section id="upload" class="section">
         <h2>Upload Your Resume</h2>
         <p>Upload your current resume, and our AI will do the rest!</p>
+        <img src="upload-image.jpg" alt="Upload Resume" class="upload-img">
         <form action="#" method="POST" enctype="multipart/form-data">
             <input type="file" name="resume" id="resume" required>
             <button type="submit">Upload and Update</button>
